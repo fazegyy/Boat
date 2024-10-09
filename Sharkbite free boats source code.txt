@@ -1,0 +1,262 @@
+﻿local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SharkBite 2 FreeBoats V1", "Ocean")
+
+--BoatsXMainFrame
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Boats")
+
+
+Section:NewButton("DuckyBoat", "Chooses DuckyBoat", function()
+    local args = {
+		[1] = "DuckyBoat"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("BlueWoodenMotorboat", "Chooses BlueWoodenMotorboat", function()
+    local args = {
+		[1] = "BlueWoodenMotorboat"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Jetski", "Chooses Jetski", function()
+    local args = {
+		[1] = "Jetski"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("DuckyBoatBeta", "Chooses DuckyBoatBeta", function()
+    local args = {
+		[1] = "DuckyBoatBeta"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Marlin", "Chooses Marlin", function()
+    local args = {
+		[1] = "Marlin"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Catamaran", "Chooses Catamaran", function()
+    local args = {
+		[1] = "Catamaran"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("TubeBoat", "Chooses TubeBoat", function()
+    local args = {
+		[1] = "TubeBoat"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Sloop", "Chooses Sloop", function()
+    local args = {
+		[1] = "Sloop"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("CombatBoat", "Chooses CombatBoat", function()
+    local args = {
+		[1] = "CombatBoat"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("FishingBoat", "Chooses FishingBoat", function()
+    local args = {
+		[1] = "FishingBoat"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Duckmarine", "Chooses Duckmarine", function()
+    local args = {
+		[1] = "Duckmarine"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("GingerbreadSteamBoat", "Chooses GingerbreadSteamBoat", function()
+    local args = {
+		[1] = "GingerbreadSteamBoat"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("SmallDinghyMotorboat", "Chooses SmallDinghyMotorboat", function()
+    local args = {
+		[1] = "SmallDinghyMotorboat"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Sleigh2022", "Chooses Sleigh2022", function()
+    local args = {
+		[1] = "Sleigh2022"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Snowmobile", "Chooses Snowmobile", function()
+    local args = {
+		[1] = "Snowmobile"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("PartyBoat", "Chooses PartyBoat", function()
+    local args = {
+		[1] = "PartyBoat"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("MilitarySubmarine", "Chooses MilitarySubmarine", function()
+    local args = {
+		[1] = "MilitarySubmarine"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Titanic", "Chooses Titanic", function()
+    local args = {
+		[1] = "Titanic"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("PyroTank", "Chooses PyroTank", function()
+    local args = {
+		[1] = "PyroTank"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("UFO", "Chooses UFO", function()
+    local args = {
+	    [1] = "UFO"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Britannic", "Chooses Britannic", function()
+    local args = {
+		[1] = "Britannic"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("CruiseShip", "Chooses CruiseShip", function()
+    local args = {
+		[1] = "CruiseShip"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+Section:NewKeybind("ToggleUI", "V to toggle", Enum.KeyCode.V, function()
+    Library:ToggleUI()
+end)
+
+
+Section:NewButton("RGBTurretSleigh", "Chooses RGB Turret Sleigh", function()
+    local args = {
+		[1] = "RGBTurretSleigh"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("StealthBoat", "Chooses StealthBoat", function()
+    local args = {
+		[1] = "StealthBoat"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("SeaBreacher", "Chooses SeaBreacher", function()
+    local args = {
+		[1] = "SeaBreacher"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("FestiveGalleon", "Chooses FestiveGalleon", function()
+    local args = {
+		[1] = "FestiveGalleon"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("Galleon", "Chooses Galleon", function()
+    local args = {
+		[1] = "Galleon"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
+
+
+Section:NewButton("HydroTank", "Chooses HydroTank", function()
+    local args = {
+		[1] = "HydroTank"
+	}
+
+	game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(unpack(args))
+end)
